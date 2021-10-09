@@ -53,7 +53,50 @@ There are different forms of activation functions which can be used, most com-mo
 
 The Unipolar sigmoid function is derived using Equation 1.1 which is also known as the sigmoid function. This maps the input values to a range of [0,1]. This rangerepresents the probability of the output belonging to a specific class.
 
+<img src ="images/UniPolarSigmoidFunction.png"/> (1.1)
 
+Equation 1.2 presents the Bi-polar sigmoid function. This function is commonly used within a Hopfield neual network (34). This type of activation function is bestused within applications which present an output value with a range of [-1,1]. Hav-ing this range of output denotes it as being a bounded function.
+
+<img src ="images/BipolarSigmoidFunction.png"/> (1.2)
+
+Equation 1.3 represents the hyperbolic tangent function also known as ’Tanh’. This function is similar to the bipolar sigmoid function presenting the same shape, as it also outputs with a range of [-1,1]. However the Tanh function presents a steeper sloped curve due to a factor of ’2x’ being used when taking the derivative (35).
+
+<img src ="images/HyperbolicTangentFunction.png"/> (1.3)
+
+The radial basis function as presented in equation 1.4, is a function where thevalue depends on the distance from the origin. It is commonly used in radial basis function networks where data is required to be classified in non linear ways (36).
+
+<img src ="images/RadialBasisFunction.png"/> (1.4)
+
+The conic section function represented in equation 1.5 a section of a cone. This takes a parameter determining the angular value of the function (33).
+
+<img src ="images/ConicSectionFunction.png"/> (1.5)
+
+Neural networks rarely differ the activation function throughout the network. The hyperbolic tangent function is most commonly used at this period of time, primarily due to greater efficiency (37). However both the sigmoid functions and hyperbolic tangent function create networks which are more susceptible to the vanishing gradient problem (38).
+
+#### Development of deep learning neural networks (DLNN)
+DLNN’s are composed of artificial neurons or nodes which are represented with layers  within  the  model.  The  model  will  always  have  an  input  layer  and  output layer. The number of layers in between can vary dependant on the information youare trying to process as well as the complexity of the problem it is attempting to solve(39). For development of AI deep learning systems there are many languages which can be used to code with, these are primarily: Python (40), C++ (41), C, Java (42),JavaScript, Matlab (43) and C#. There are many different integrated development environments (IDE) for the development of AI. For Python the most common andtested IDE’s are PyCharm (44), Spyder (45) or Visual Studio Code (46).
+
+#### Deep learning in medical practise
+One highly researched area is its implementation into the healthcare industry. Anysystem which can reduce human error, save costs, increase efficiency and reduce stress for patients and staff in managing, diagnosing or treating illness is beneficial to the healthcare system (47). The application of deep learning has been widely noticed as there have been hundreds of papers applying deep learning models fordifferent aspects of medical image analysis shown by Litjens et al. (48).
+
+#### Models and architecture
+Convolution Neural Network (CNN): A CNN is suitable to process data withinarrays, this can include medical imaging. The CNN consists of three types of layer(49). The convoloutional layer, which detects similarities from the previous layer.The pooling layer, which will shift variance by reducing resolution of the featuremap. This layer is placed between two convoloutional layers. The fully connectedlayer, which will perform reasoning by taking in all neurons from the previous layerand  connecting them to all  neurons on the current layer (50). A core feature of using a CNN is the ability to automatically detect important features without humaninteraction. However to achieve reliable results using this model method a largetraining data set is required.
+
+Synergic Deep Learning (SLD): This model uses multiple CNN’s at the sametime in an attempt for them to learn from each other. This presents the theory that if one CNN will create a correct classification and another makes an incorrect classification a ’synergic error’ will occur which will force an update in the model (51). Advantages of this model are that multiple CNN’s can cross check and learn fromeach other potentially increasing the precision of results. On the other hand this model is still experimental and has not had a large quantity of studies to prove the effectiveness and reliability of this model.
+
+InceptionV3: This model was designed and created as a focus on reducing theamount of computational power required (52). Advantages of using this model is required potential computational power required when running the system. However that computational power reduction is potentially lost when modifying the network. As changes to the network will result in uncertain outcome. Therefore if modifications are required to the network it is not advised to use this model. There are developments to improve flexibility in this network by using techniques such as factorised convolutions, regularisation, dimension reduction and parallelized computations.
+
+Xception: This model was inspired by InceptionV3 and is similar as it uses thesame number of parameters and architecture within the model. The model gains performance through the use of more efficient model parameters (53). Another study done by - (54) shows an increased accuracy rating for prediction in conjunction withusing googles ’Swish activation function’ while using this model. More research would be required to understand the benefits of using this model with other data sets of varied complexity.
+
+VGG16 and VGG19:This network uses a three by three set of convoloutional layers stacked on top of each other (55). The 16 and 19 representing the number of weight layers within the network. By using smaller networks which are converged and used as initialisations for deeper networks. These smaller networks create aprocess called pre-training. This use of pre-training can increase the optimisation of the network (56). However this pre-training network is typically unsupervised(57), this may have an undesired outcome on the following data. More studies arerequired to see the effect of supervised pre-training.
+
+ResNet50: This originated from Residual Network (ResNet) (58), the modelaims to create a framework which will aim to improve the training of networks.ResNet was created to combat against the degradation problem which occurs whenmore depth in networks cause accuracy to decrease, by using a technique called residual mapping. ResNet performs better with deeper architecture. An advantage of using this model is ease of implementation with open sources such as PyTorch and Tensorflow, both coming with in depth tutorials on development and alteration of the model. The model has further been updated with different iterations such as Wide ResNet, further study will have to be research to identify the specific areas ofdifference when deciding to use different iterations of the model.
+
+DenseNet:Within DenseNet each layer of the network obtains additional inputfrom the previous layers and passes on the feature map. This uses the techniqueof concatenation which allows each layer to receive a collective knowledge basefrom previous layers. An advantage of using this network model is computation andmemory efficiency. There are also variants of this network model such as multiplefeature re-weight DenseNet (MFR-DenseNet) (59), this variability and customisa-tion within the network is advantageous when designing a new deep learning model.
+
+MobileNet:This network was developed for use with Keras. The network usesdepth wise separable convolution as the base unit. This has two layers, a depth wise convolution and point convolution. By using this it reduces the amount of parameters needed compared to other network models. Similar to other network models here is also the option of using pre-trained weights from sources such as ImageNet(60). This is typically designed for use in mobile and embedded vision applications.
+
+NASNet: This model is  designed by Google as an automatic machine learn-ing structure to produce small neural networks. The model is primarily focused onobject detection networks. Due to the limited access to NASNet and little studies conducted on the testing of its capabilities. The major project linked to this paper will not use this network model.
 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
