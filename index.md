@@ -1,8 +1,9 @@
 ## Portfolio
-Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems. Looking for work or placement opportunities starting in september within game programming / software development / software engineering / software programming.
+Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems. Looking for work within game programming / software development / software engineering / software programming / AI programming / full stack development.
 
 Click my name to navigate back to this home page.
- Select a project to get a more detailed view. 
+
+Select a project for a detailed view. 
 
 ---
 
@@ -10,6 +11,8 @@ Click my name to navigate back to this home page.
 
 [Project: Alzheimer's Classification AI](/AlzheimersClassificationAIPage)
 <img src="images/ALClassificationAIDemo.png"/>
+
+---
 
 [Project: Cards Of Life](/CardsOfLifePage)
 <img src="images/StartScreen.png"/>
