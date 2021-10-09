@@ -1,6 +1,18 @@
 ## This can be your internal website page / project page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Abstract:** Alzheimer’s and Dementia patients are increasing each year due to increased average age of living.
+To help a greater amount of patients be diagnosed, a new neural network model will be created to classify stages of the Alzheimer’s Dementia.
+Leading to earlier treatment and management of the diseases.
+This study proposes the creation of a new neural network to be used for the classification of Alzheimer’s Dementia. 
+The research creates a convolutional neural network for image classification using an Alzheimer’s data set containing pre-processed X-ray images.
+The research provides documentation for the design, implementation and evaluation for the creation of a neural network using pyTorch version 1.9.0. 
+A study of the neural network model ”StackNet” presents a validation accuracy of 0.65 when classifying Alzheimer’s Dementia.
+Presenting an increased value of validation accuracy when compared to other models currently trained for image classification such as the base DenseNet model.
+Through research of literature there is a lack of research when using X-ray data-sets, thus this model currently trained using X-ray imaging as a method of classifying Alzheimer’s disease.
+
+Keywords: Convolutional neural network, Deep learning, Neuroimaging, X-ray imaging,
+Modularity, Machine learning
+
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
