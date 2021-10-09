@@ -8,6 +8,9 @@ Click my name to navigate back to this home page.
 
 ### Projects
 
+[Project: Alzheimer's Classification AI](/AlzheimersClassificationAIPage)
+<img src="images/ALClassificationAIDemo.png"/>
+
 [Project: Cards Of Life](/CardsOfLifePage)
 <img src="images/StartScreen.png"/>
 
